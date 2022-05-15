@@ -1,6 +1,0 @@
-framework module Pods_Gitter_GitterUITests {
-  umbrella header "Pods-Gitter-GitterUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
