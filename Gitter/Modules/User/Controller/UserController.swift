@@ -91,8 +91,7 @@ class UserController: UIViewController {
             }
             guard let users = users else { return }
             self.userListDataSource.updateFollowsList(users)
-//            self.userListDataSource.reloadSection(section: .follows, for: self.tableView)
-            self.userListDataSource.reloadIfNeed(tableView: self.tableView)
+            self.userListDataSource.reloadSection(section: .follows, for: self.tableView)
         })
     }
     
